@@ -1,0 +1,36 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "huh",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.huh",
+				"match": "\\b(U|X)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.huh",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [{
+					"name": "constant.character.escape.huh",
+					"match": "\\\\."
+				}]
+		},
+		"linenums": {
+			"patterns": [{
+				"name": "linenum.huh",
+				"match": "^[0-99999999]$m"
+			}]
+		}
+	},
+	"scopeName": "source.huh"
+}

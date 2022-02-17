@@ -1,0 +1,25 @@
+{
+    "name": "huh",
+    "displayName": "huh",
+    "description": "Syntax coloring for onmert's 'huh' language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "huh",
+            "aliases": ["huh", "huh"],
+            "extensions": [".huh"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "huh",
+            "scopeName": "source.huh",
+            "path": "./syntaxes/huh.tmLanguage.json"
+        }]
+    }
+}
