@@ -1,10 +1,10 @@
 {
     "name": "huh",
     "displayName": "huh",
-    "description": "Syntax coloring for onmert's 'huh' language",
+    "description": "Syntax highlighter for huh (language by onmert)",
     "version": "0.0.1",
     "engines": {
-        "vscode": "^1.63.0"
+        "vscode": "^1.64.0"
     },
     "categories": [
         "Programming Languages"
